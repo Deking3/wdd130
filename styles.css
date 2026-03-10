@@ -1,0 +1,44 @@
+/* Main content styling */
+main {
+    width: 800px;
+    margin: 0 auto; /* center main content */
+}
+
+/* Main images */
+main img {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Aside styling */
+aside {
+    width: 250px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Aside images */
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Paragraphs */
+p {
+    padding: 0;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
+    padding-top: 10px;
+}
