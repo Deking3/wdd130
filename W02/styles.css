@@ -1,0 +1,61 @@
+/* Main content styling */
+.main-content {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Flex layout for profile picture + text */
+.profile-section {
+    display: flex;
+    align-items: center; /* vertical center */
+    gap: 20px;           /* space between picture and text */
+    justify-content: center;
+    flex-wrap: wrap;     /* stack on small screens */
+}
+
+/* Personal profile picture */
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #333;
+}
+
+/* About text next to picture */
+.about-text {
+    max-width: 500px;
+    text-align: left;
+}
+
+/* Aside styling */
+aside {
+    width: 250px;
+    margin: 20px auto;   /* center aside */
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Aside image */
+aside img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #333;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* Paragraph adjustments */
+p {
+    padding: 0;
+}
